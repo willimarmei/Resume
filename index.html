@@ -16,8 +16,10 @@
         #pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 18px; position: relative; font-weight: 300; }
+        h3 { font: 16px Helvetica, Sans-Serif; position: relative; font-weight: 400; line-height: 24px; }
         h2 strong {font-size: 20px; padding: 0 5px 0 0; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        .date{ font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; display: inline-block; float:right; } 
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 0 17px; }
@@ -27,6 +29,7 @@
         dd { width: 650px; float: right; border-left: 1px solid #999; padding: 0 0 0 26px; }
         dd.clear { float: none; margin: 0; height: 15px; border-left: none; }
         .smartmargin { margin: 10px 0 0 0; }
+        .educ { display: inline-block; }
      </style>
 
      <style type="text/css" media="print">
@@ -45,9 +48,10 @@
             <h1 class="fn">Marguerite Williams</h1>
 
             <p>
-                Cell: <span class="tel">(209) 694-5477</span><br />
-                Personal Email: <a class="email">willimarmei@gmail.com</a><br />
-				School Email: <a class="email">willimar@sonoma.edu</a>
+               Cell: <span class="tel">(209) 694-5477</span><br />
+               Personal Email: <a class="email">willimarmei@gmail.com</a><br />
+               School Email: <a class="email">willimar@sonoma.edu</a><br/>
+               Currently located in Rohnert Park, California
             </p>
         </div>
 
@@ -67,20 +71,84 @@
             <dt>Education</dt>
             <dd>
                 <h2><strong>Sonoma State University</strong> Rohnert Park, CA</h2>
-                <p><strong>B.S:</strong> Computer Science<span> Expected Graduation
-					May 2019 G.P.A.: 3.36</span><br />
-				<p><strong>B.A:</strong> English<span> Received May 2017 
-					with Distinction and Magna Cum Laude
-					G.P.A.: 3.70</span><br />
+                <p class="educ"><strong>B.S:</strong> Computer Science G.P.A.: 3.36</p><p class="date">Expected Graduation
+					May 2019</p><br />
+				<p class="educ"><strong>B.A:</strong> English G.P.A.: 3.70 with Distinction and Magna Cum Laude</p>
+            <p class="date">May 2017</br>
 				<p>Dean's List: Fall 2015, Spring 2016, Fall 2016, and Spring 2017</p>
 				<br />
                 <h2><strong>Columbia Community College</strong> Sonora, CA</h2>
-                <p><strong>A.A:</strong> Liberal Arts, Emphasis In Elementary
-					Teaching<span> Received December 2014 with honors</span><br />
-				<p><strong>A.A:</strong> English<span> Received May 2015 
-					with honors</span><br />
-				<p>Dean's List: Fall 2015, Spring 2016, Fall 2016, and Spring 2017</p>
+                <p class="educ"><strong>A.A:</strong> Liberal Arts, Emphasis In Elementary
+					Teaching with honors</p><p class="date"> December 2014</p><br />
+				<p class="educ"><strong>A.A:</strong> English with honors</p><p class="date"> Received May 2015 
+					with honors</p><br/>
             </dd>
+
+
+            <dd class="clear"></dd>
+            <dt>Professional Experience</dt>
+            <dd>
+
+                <h2 class="smartmargin"><strong>Climbing Wall Manager</strong><p class="date">May 2018&ndash;Current</p><br/>
+					Sonoma State University
+					Climbing Wall, Rohnert Park, CA</h2>
+                <ul>
+                    <li>Directly manage 10-15 climbing wall floor staff</li>
+                    <li>Maintain a database of programming evaluations, memberships, 
+						and participant numbers</li>
+                    <li>Host special events such as climbing competitions and clinics</li>
+					<li>Oversee hiring process of the climbing wall staff, this including
+						 updating applications, creating a hiring timeline, conducting
+						 interviews, and making hiring decisions. </li>
+                </ul>
+                
+                <h2 class="smartmargin"><strong>Computations Intern</strong><p class="date">May 2018&ndash;August 2018</p>
+                <br/>Lawrence Livermore National Laboratory, Livermore, CA</h2>
+                <ul>
+                    <li>Worked with FPGA's to increase the speed of running 
+						geological simulations.</li>
+                    <li>Gathered and analyzed data and information in support of 
+						scientific research</li>
+                </ul>
+				
+                <h2 class="smartmargin"><strong>Climbing Wall Floor Staff</strong><p class="date">April 2016&ndash; May 2018</p>
+                <br/>Sonoma State University, Rohnert Park, CA</h2>
+                <ul>
+                    <li>providing positive and appropriate customer service to
+						 participants while enforcing established protocols</li>
+                </ul>
+				
+                <h2 class="smartmargin"><strong>Student Editor</strong><p class="date">May 2016&ndash;August 2018</p>
+                <br/>Sonoma State University's Wine Business Case Research
+					Journal Rohnert Park, CA</h2>
+                <ul>
+                    <li>Edited manuscripts, wrote blogs, and maintained the website
+						(website visits increased by 21%) </li>
+					<li>Attended 3 conferences</li>
+                </ul>				
+            </dd>
+
+
+            <dd class="clear"></dd>
+            <dt>Technical Proficiencies</dt>
+            <dd>
+                <h2 class="smartmargin"><strong>Selected Languages and Programs</strong></h2>
+               <ul>
+                  <li>Used python in the PyCharm IDE in CS115: Intro to Programming.</li>
+                  <li>Used C++ for most projects including those in CS315: Data Structures.</li>
+                  <li>Use Unix/Linux and command line prompts to write, run, and submit
+                        code. This has enabled me to communicate with a Unix host, shells, and
+                        shell commands, files, and directories.</li>
+                  <li>Used Agile methodology to complete team projects.</li>
+                  <li>Created an Android App over the course of a semester in the Android Studio
+                        IDE in Java. </li>
+                  <li>Use GitHub to store code, particularly for group projects.</li>
+                  <li>Used SQL and MySQLWorkbench to create, update, and maintain a database.</li>
+                  <li>Used IntelliJ IDEA and Node.js to write JavaScript, HTML, and XML code to 
+                        access, change, and display my Database information in the browser.</li>
+               </ul>
+            </dd>
+
 
             <dd class="clear"></dd>
             <dt>Skills</dt>
@@ -91,69 +159,33 @@
                 <h2 class="smartmargin"><strong>Computer skills</strong></h2>
                 <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
             </dd>
-
-            <dd class="clear"></dd>
-            <dt>Experience</dt>
-            <dd>
-                <h2><strong>Computations Intern</strong><br/>Lawrence Livermore National 
-					Laboratory, Livermore, CA
-					 <span>May 2018&ndash;August 2018</span></h2>
-                <ul>
-                    <li>Worked with FPGA's to increase the speed of running 
-						geological simulations.</li>
-                    <li>Gathered and analyzed data and information in support of 
-						scientific research</li>
-                </ul>
-
-                <h2 class="smartmargin"><strong>Climbing Wall Manager</strong><br/>
-					Sonoma State University
-					Climbing Wall, Rohnert Park, CA <span>
-					May 2018&ndash;Current</span></h2>
-                <ul>
-                    <li>Directly manage 10-15 climbing wall floor staff</li>
-                    <li>Maintain a database of programming evaluations, memberships, 
-						and participant numbers</li>
-                    <li>Host special events such as climbing competitions and clinics</li>
-					<li>Oversee hiring process of the climbing wall staff, this including
-						 updating applications, creating a hiring timeline, conducting
-						 interviews, and making hiring decisions. </li>
-                </ul>
-				
-                <h2 class="smartmargin"><strong>Climbing Wall Floor Staff</strong><br/>
-					Sonoma State University, Rohnert Park, CA
-					<span>April 2016&ndash;May 2018</span></h2>
-                <ul>
-                    <li>providing positive and appropriate customer service to
-						 participants while enforcing established protocols</li>
-                </ul>
-				
-                <h2 class="smartmargin"><strong>Student Editor</strong><br/>
-					Sonoma State University's Wine Business Case Research
-					Journal<br/> Rohnert Park, CA 
-					<span>May 2016&ndash;August 2018</span></h2>
-                <ul>
-                    <li>Edited manuscripts, wrote blogs, and maintained the website
-						(website visits increased by 21%) </li>
-					<li>Attended 4 conferences</li>
-                </ul>
-				
-            </dd>
-
+            
+            
             <dd class="clear"></dd>
             <dt>Involvement</dt>
             <dd>
-               <strong>Clubs</strong>
+               <h2 class="smartmargin"><strong>Clubs</strong>
                <ul>
-                  <li>Women in Computer Science (WICS)</li>
-                  <li>VR Club</li>
-                  <li>Equestrian Club</li>
-               </ul>
-               <strong>Conferences</strong>
+                  <li>Women in Computer Science (WICS) <p class="date">Active since November 2016</p></li>
+                  <li>VR Club <p class="date">Active since August 2017</p></li>
+                  <li>Equestrian Club <p class="date">Active since January 2017</li>
+               </ul></h2>
+               <h2 class="smartmargin"><strong>Women in Tech</strong><p class="date">Active since August 2016</p>
                <ul>
-                  <li>Global AI</li>
-                  <li>North Bay Python</li>
-               </ul>
-               <strong>Volunteer</strong>
+                  <li>Women in Tech is an initiative to support women in STEM fields.
+                        As a part of this initiative, I've assisted a Girl Scouts 
+                        Astrology night event hosted at Sonoma State University. I
+                        also volunteered with Expanding Your Horizons, an organization
+                        that hosts one-day conferences usually on a college campus.</li>
+               </ul></h2>
+
+               <h2 class="smartmargin"><strong>Conferences</strong>
+               <ul>
+                  <li>Global AIi <p class="date">May 2018</p></li>
+                  <li>North Bay Python <p class="date">December 2017</p></li>
+               </ul></h2>
+
+               <h2 class="smartmargin"><strong>Volunteer</strong>
                <ul>
                   <li>Mentor Me: I devote two hours every week with the Mentor Me program
                         serving at risk youth in the Petaluma School District. Ongoing 
@@ -162,7 +194,7 @@
                         teen leader to the rabbit, poultry, and horse projects. After my high
                         school graduation I was the adult leader of the rabbit project for
                         two years</li>
-               </ul>
+               </ul></h3>
             </dd>
 
             <dd class="clear"></dd>
@@ -172,7 +204,7 @@
             <dd class="clear noprint"></dd>
             <dt class="noprint">Links</dt>
             <dd class="noprint">
-              <a href="https://github.com/gonsie/Cthulu-Resume"><span class="octicon octicon-mark-github" style="position: relative; color: black; margin: 3px;"></span>Find This on GitHub</a>
+              <a href="https://github.com/gonsie/Cthulu-Resume"><span class="octicon octicon-mark-github" style="position: relative; color: black; margin: 3px;"></span>Find the Original Templete on GitHub</a>
             </dd>
 
             <dd class="clear"></dd>
